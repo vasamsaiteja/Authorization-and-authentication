@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.product-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-icon {
+  height: 40vh;
+}
+@media screen and (min-width: 768px) {
+  .image-icon {
+    height: 60vh;
+  }
+}
